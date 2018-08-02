@@ -66,6 +66,7 @@ install:
 
 script:
   - |
+    whoami
     if [[ $TRAVIS_OS_NAME == 'linux' ]]; then
       if [[ $CODESTYLE ]]; then
         # 241 - multiple spaces after ‘,’
